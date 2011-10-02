@@ -5,7 +5,7 @@ class GroupsController < ApplicationController
     @groups = Group.all
 
     respond_to do |format|
-      format.html # index.html.erb
+        format.html { render notice: 'Login Successfull.' }
       format.json { render json: @groups }
     end
   end
