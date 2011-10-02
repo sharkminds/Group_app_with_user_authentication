@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  Group_name: MyString
+  Group_description: MyText
+  Category: MyString
+
+two:
+  Group_name: MyString
+  Group_description: MyText
+  Category: MyString
